@@ -223,7 +223,7 @@ public class PetCareScheduler {
     }
 
     private void displayPastAppointments() {
-        System.out.println("\n*** PAST APPOINTMENT HISTORY (By model.Pet) ***");
+        System.out.println("\n*** PAST APPOINTMENT HISTORY (By Pet) ***");
         LocalDateTime now = LocalDateTime.now();
         boolean found = false;
 
@@ -367,4 +367,5 @@ public class PetCareScheduler {
     As contactInfo.matches() function Works Alright but the main Problem is
     I cannot Make Program ask Again and Again Unless A Valid Number is Provided
     */
+
 }
